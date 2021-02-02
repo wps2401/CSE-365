@@ -1,0 +1,4 @@
+William Schuhmann
+1215026803
+
+Main has two arguments called argc and argv. The number or commands entered is 1 less than there actually is in order to account for the run command. The for loops starts at the end of the array and works backwards to output the entered commands in reverse order. 

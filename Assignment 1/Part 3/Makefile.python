@@ -1,0 +1,4 @@
+python_program: python_program.py
+	chmod +x $<
+	cp python_program.py python_program
+	chmod +x python_program

@@ -1,0 +1,31 @@
+William Schuhmann
+wechall name: wps2401
+Assignment 1 CSE 365
+Bandit V1
+1/24/2021
+
+ssh bandit6@bandit.labs.overthewire.org -p 2220
+
+Level 0 —> Level 1
+	- Password: boJ9jbbUNNfktd78OOpsqOltutMc3MY1
+	- Found in readme in home directory.
+
+Level 1 —> Level 2
+	- Password: CV1DtqXWVFXTvM2F0k09SHz0YwRINYA9
+	- Found using cat  <  -.
+
+Level 2 —> Level 3
+	- Password: UmHadQclWmgdLOKQ3YNgjWxGoRMb5luK
+	- Found using cat spaces\ in\ this\ filename.
+
+Level 3 —> Level 4
+	- Password: pIwrPrtPN36QITSp3EQaw936yaFoFgAB
+	- Entered inhere directory and used ls -al to show .hidden file where password was stored.
+
+Level 4 —> Level 5
+	- Password: koReBOKuIDDepwhWk7jZC0RTdopnAYKh
+	- Checked all filed manually, found in file 07 using cat ./-file07.
+
+Level 5 —> Level 6
+	- Password: DXjZPULLxYr17uwoI01bNLQbtFemEgo7
+	- Used find -type f -size 1033c to find file with given specs, which was file2 inside maybehere07.
