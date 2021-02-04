@@ -1,0 +1,14 @@
+William Schuhmann
+1215016803
+
+I went through these steps to create this program:
+
+1.) I first made a large while loop called "BigLoop" that runs through my switch statements until the entered command is "EXIT" and input is given. 
+
+2.) I next made my switch statement. Originally, I was making this in C++, but it became kind of a nightmare because switch statements in C++ only accept case names at characters of integers. Considering how string heavy this assignment was, I switched over to Java. 
+
+3.) All special cases, such as firefighters and police are taken under the "TURN" case. 
+
+4.) I used a variable called "doorOpen" to keep track of if the door was unlocked (true) or locked (false). 
+
+5.) People in the house was kept track of using an amended string variable "inHouse".
